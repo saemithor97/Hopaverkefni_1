@@ -5,4 +5,4 @@ Pages mappan inniheldur cat.html , products.html og staff.html.
 
 Img mappan inniheldur allar myndir.
 
-Efni - text mappan inniheldur cart.txt , index.txt, postnumer.txt products.txt og staff.txt.
+Efni - texti mappan inniheldur cart.txt , index.txt, postnumer.txt products.txt og staff.txt.
