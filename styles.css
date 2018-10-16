@@ -3,21 +3,33 @@
 }
 body
 {
-	background: #0064ce;
 	font: 400 1em/1.5 "Open Sans", "Helvetica Neue", Arial, sans-serif;
-	color: white;
+	margin: 0; /* Fylla út í allan skjáinn - Sæmi*/
 }
 .beige
 {
-	background:linear-gradient(to top, white, white);
-	margin-top:1em;
-	padding: 2em;
+	background:linear-gradient(to top, #afb281, #afb281);
 	color: black;
 }
+.white
+{
+	background:linear-gradient(to top, white, white);
+	margin-top:4em;
+	padding: 2em;
+	color: black;
+	margin: 0; /* Fylla út í allan skjáinn - Sæmi*/
+}
+.pink
+{
+	background:linear-gradient(to top, #cc9694, #cc9694);
+	color: black;
+	margin-top:7em;
+	padding: 2em;
+}
+
 .container
 {
-	max-width: 60em;
-	margin: 0 auto;
+	max-width: 50em;
 }
 
 .verklysing
@@ -72,7 +84,7 @@ dl
 .efnisyfirlit
 {
 	display: flex;
-	flex-flow: row;
+	flex-flow: column;
 	justify-content: space-around;
 }
 
