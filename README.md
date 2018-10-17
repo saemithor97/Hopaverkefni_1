@@ -1,5 +1,5 @@
 # Hopaverkefni_1
-Unnið saman af Stt19@hi.is og tho89@hi.is.
+Unnið saman af stt19@hi.is og tho89@hi.is.
 
 Pages mappan inniheldur cat.html , products.html og staff.html.
 
