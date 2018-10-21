@@ -1,0 +1,23 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Unnið saman af stt19@hi.is og tho89@hi.is.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saemithor97/Hopaverkefni_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saemithor97/Hopaverkefni_1/issues"
+  },
+  "homepage": "https://github.com/saemithor97/Hopaverkefni_1#readme"
+}
