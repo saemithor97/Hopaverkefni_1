@@ -22,7 +22,30 @@ body
 	color: black;
 	margin: 0;
 }
+
+.white
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .container
+{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.container2 img
+{
+    width: 400px;
+	height: auto;
+}
+.container3 img
+{
+    width: 400px;
+    height: auto;
+}
+.container4
 {
 	max-width: 60em;
 	margin: 0 auto;
