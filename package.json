@@ -6,12 +6,12 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "node-sass": "^4.9.4",
     "stylelint-config-primer": "^2.2.11"
   },
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html";
-    
-    
+    "sass": "node-sass styles.scss styles.css"
   },
   "repository": {
     "type": "git",
