@@ -28,10 +28,15 @@ body
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	align-content: center;
 }
 .container
 {
+	text-align: left;
+	max-width: 60em;
+	margin: 0 auto;
+}
+.container2{
 	max-width: 60em;
 	margin: 0 auto;
 }
@@ -39,6 +44,10 @@ body
 {
     width: 400px;
 	height: auto;
+}
+.container3{
+	max-width: 60em;
+	margin: 0 auto;
 }
 .container3 img
 {
@@ -50,6 +59,23 @@ body
 	max-width: 60em;
 	margin: 0 auto;
 }
+
+.container4 a:first-of-type{
+	background: #cc9694;
+	text-decoration: none;
+	border-color: #cc9694;
+	border-style: solid;
+	border-radius: 0.3em;
+	border-bottom-width: 0.5em;
+	border-top-width: 0.5em;
+	border-left-width: 2em;
+	border-right-width: 2em;
+}
+.container4 a:visited{
+	color: black;
+	border-color: #cc9694;
+}
+
 
 .nafnAfSidu{
 	background: #afb281;
