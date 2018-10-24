@@ -49,7 +49,7 @@ header nav
 	display: flex;
 	flex-flow: row;
 	text-align: right;
-	letter-spacing: .5px
+	letter-spacing: .5px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
