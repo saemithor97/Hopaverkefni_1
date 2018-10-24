@@ -10,7 +10,7 @@
     "stylelint-config-primer": "^2.2.11"
   },
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html",
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "node-sass styles.scss styles.css"
   },
   "repository": {
