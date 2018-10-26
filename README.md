@@ -8,4 +8,10 @@ Img mappan inniheldur allar myndir.
 Efni -texti mappan inniheldur cart.txt , index.txt, postnumer.txt products.txt og staff.txt.
 
 til að keyra browser sync þá þarf bara að nota 
-npm run browser-sync 
+Tools:
+
+npm install
+npm run browser-sync
+
+Install sass then 
+npm run sass
