@@ -177,3 +177,12 @@ dl
 	text-align: center;
 }
 
+.vörunar{
+	flex: 1 1 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.mynd {
+	width: 25em;
+}
