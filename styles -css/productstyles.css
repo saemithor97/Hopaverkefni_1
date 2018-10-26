@@ -6,55 +6,126 @@ body
 	background: #cc9694;
 	font: 400 1em/1.5 "Open Sans", "Helvetica Neue", Arial, sans-serif;
 	color: white;
-	margin: 0 auto;
+	margin: auto;
 }
-
 .beige
 {
 	background:linear-gradient(to top, #afb281, #afb281);
-	padding: 2em;
 	color: black;
-	margin: 0;
+	
 }
 .white
 {
 	background:linear-gradient(to top, white, white);
-	margin-bottom: 15em;
 	padding: 2em;
 	color: black;
 	margin: 0;
 }
-.copy,
-html
+
+.white
 {
-	background:linear-gradient(to top, #cc9694, #cc9694);
-	color: black;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
 }
 .container
 {
+	text-align: left;
 	max-width: 60em;
 	margin: 0 auto;
+}
+.container2{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.container2 img
+{
+    width: 400px;
+	height: auto;
+}
+.container3{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.container3 img
+{
+    width: 400px;
+    height: auto;
+}
+.container4
+{
+	text-align: left;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+.white a{
+	grid-template-columns: 1fr 1fr;
+	background: #cc9694;
+	text-decoration: none;
+	border-color: #cc9694;
+	border-style: solid;
+	border-radius: 0.3em;
+	border-bottom-width: 0.5em;
+	border-top-width: 0.5em;
+	border-left-width: 2em;
+	border-right-width: 2em;
+}
+.white a:visited{
+	color: black;
+	border-color: #cc9694;
+
+}
+
+
+.nafnAfSidu{
+	background: #afb281;
+	font-size: 2em;
+	color: black;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+}
+header ,footer 
+{
+	color: white;
+}
+header a, footer a
+{
+	text-decoration: none;
+	color: white;
+}
+header h1
+{
+	font-weight: normal;
+	font-size: 1em;
+	margin: 1em 0;
+	text-transform: uppercase;
+	padding:1em;
+	text-align: left;
+}
+header nav
+{
+	display: flex;
+	flex-flow: row;
+	text-align: right;
+	letter-spacing: .5px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+header a:hover,
+footer a:hover
+{
+	color: #F7D37E;
 }
 dl
 {
 	line-height: 1.8em;
 }
 
-dl,
-{
-	text-align: center;
-}
-
-.karfa h1
-{
-	color: black;
-	text-align: center;
-	font-size: 2em;
-}
-nav
-{
-	text-align: center
-}
 .efnisyfirlit a
 {	
 	color:black;
@@ -74,6 +145,11 @@ nav
 	width: 1em;
 	height: 1em;
 }
+.beige img{
+	width: 1em;
+	height: 1em;
+}
+
 
 .col-II
 {
@@ -82,30 +158,22 @@ nav
 }
 .col-III
 {
+	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr)
 
 }
-
+.col-III dd{
+	color: #F7D37E;
+	list-style: none;
+}
 .col-III dt
 {
 	color: black;
-	margin: 0;
-
-}
-.col-III dd
-{
-	margin: 0;
-	text-align: left;
-	padding-left: 6em;
+	font-size: em;
 }
 .copy
 {
 	text-align: center;
 }
 
-
-.mynd img{
-	height: 1em;
-	width:auto;
-}
