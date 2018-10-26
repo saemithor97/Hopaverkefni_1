@@ -103,3 +103,13 @@ nav
 {
 	text-align: center;
 }
+
+.Mynd img{
+	width: 25em;
+	height: 25em;
+}
+
+.Sida{
+	display: flex;
+	justify-content: flex-start;
+}
