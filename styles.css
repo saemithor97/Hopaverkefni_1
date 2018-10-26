@@ -56,6 +56,7 @@ body
 }
 .container4
 {
+	text-align: left;
 	max-width: 60em;
 	margin: 0 auto;
 }
@@ -124,30 +125,28 @@ dl
 {
 	line-height: 1.8em;
 }
-.efnisyfirlit
-{
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
-}
 .efnisyfirlit a
-{
-
-	color: black;
+{	
+	color:black;
 	text-decoration: none;
-	padding: 0 1em;
-	margin-top: 5em;
-	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 16px;
+	padding-left: 3em;
+	margin-left: 5em;
 }
+
 .efnisyfirlit a:hover,
 .efnisyfirlit a:active
 {
 	color: #0af;
 }
+.efnisyfirlit img
+{
+	width: 1em;
+	height: 1em;
+}
 .beige img{
-	width: 40px;
-	height: auto;
+	width: 1em;
+	height: 1em;
 }
 
 
